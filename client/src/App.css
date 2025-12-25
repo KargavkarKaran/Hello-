@@ -1,0 +1,64 @@
+/* Full page background */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  font-family: Arial, sans-serif;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 30px;
+  width: 320px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+.card h1 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Paragraph */
+.card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Input */
+.card input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+/* Button */
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background-color: #667eea;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #5a67d8;
+}
+
+/* Message */
+.message {
+  margin-top: 20px;
+  color: #333;
+}
