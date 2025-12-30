@@ -1,4 +1,3 @@
-/* Full page background */
 .container {
   height: 100vh;
   display: flex;
@@ -8,7 +7,6 @@
   font-family: Arial, sans-serif;
 }
 
-/* Card */
 .card {
   background: white;
   padding: 30px;
@@ -18,19 +16,16 @@
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-/* Heading */
 .card h1 {
   margin-bottom: 10px;
   color: #333;
 }
 
-/* Paragraph */
 .card p {
   color: #666;
   margin-bottom: 20px;
 }
 
-/* Input */
 .card input {
   width: 100%;
   padding: 10px;
@@ -41,7 +36,6 @@
   outline: none;
 }
 
-/* Button */
 .card button {
   width: 100%;
   padding: 10px;
@@ -57,7 +51,6 @@
   background-color: #5a67d8;
 }
 
-/* Message */
 .message {
   margin-top: 20px;
   color: #333;
